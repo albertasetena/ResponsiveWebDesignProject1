@@ -1,0 +1,179 @@
+@media screen and (min-width: 767px)
+{
+    body
+{
+  margin: 0;
+  background-color: #fff;
+  padding: 1%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+#main
+{
+    margin: 30px 8px 0;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #eee;
+    /* margin-bottom: 0px; */
+}
+.main_subject
+{
+ text-align: center;
+ font-family: Roboto,Arial, 'Segoe UI';
+}
+.main_subject #title
+{
+    font-size: 4rem;
+    margin-bottom: 0
+}
+.main_subject p
+{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#img-div
+{
+  display: block;
+  position: relative;
+  left: 0;
+  padding: 1.5em;
+  margin: auto;
+  text-align: center;
+  background-color: #fff;
+  
+}
+#img-div #image
+{
+    max-width: 100%;
+    height: 600px;
+    margin-bottom: 1.5rem;
+}
+#img-div #img-caption
+{
+    display: block;
+    margin: 15px;
+}
+#tribute-info
+{
+    margin: auto;
+    width: 45%;
+    padding: 5%;
+    
+}
+#tribute-info h3
+{
+    text-align: center;
+    font-size: 1.2em;
+}
+#timeline
+{
+    margin: 50px 0;
+    width: 100%;
+}
+#timeline ul li
+{
+    margin-bottom: 25px;
+}
+.summary_text_container
+{
+    display: block;
+    font-style: italic;
+}
+.summary_text_container #readmore
+{
+    font-size: 25px;
+    margin-top: 1.2rem;
+}
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+    body
+{
+  margin: 0;
+  background-color: #fff;
+  padding: 1%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+#main
+{
+    margin: 30px 8px 0;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #eee;
+    /* margin-bottom: 0px; */
+}
+.main_subject
+{
+ text-align: center;
+ font-family: Roboto,Arial, 'Segoe UI';
+}
+.main_subject #title
+{
+    font-size: 2rem;
+    margin-bottom: 0
+}
+.main_subject p
+{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#img-div
+{
+  display: block;
+  position: relative;
+  left: 0;
+  padding: 1.5em;
+  margin: auto;
+  text-align: center;
+  background-color: #fff;
+  
+}
+#img-div #image
+{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+#img-div #img-caption
+{
+    display: block;
+    margin: 15px;
+}
+#tribute-info
+{
+    margin: auto;
+    width: 90%;
+    padding: 5%;
+    
+}
+#tribute-info h3
+{
+    text-align: center;
+    font-size: 1.2em;
+}
+#timeline
+{
+    margin: 50px 0;
+    width: 100%;
+}
+#timeline ul li
+{
+    margin-bottom: 25px;
+}
+.summary_text_container
+{
+    display: block;
+    font-style: italic;
+}
+.summary_text_container #readmore
+{
+    font-size: 20px;
+    margin-top: 1.2rem;
+}
+}
